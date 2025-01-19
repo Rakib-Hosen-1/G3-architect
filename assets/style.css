@@ -9,19 +9,38 @@
 .display-flex{
     display: flex;
 }
-
+.primary-btn{
+  font-weight: 600;
+  font-size: 1.20rem;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #FF900E;
+}
+/* Text-Colors */
+.text-dark{
+  color: #131313;
+}
 .text-gray{
   color: #424242;
 }
 .text-light-gray{
   color: #727272;
 }
+.text-highlight{
+  color: #FF900E;
+}
 .bg-color{
   background-color: rgba(255, 144, 14, 0.1);
 }
+main > section{
+  margin-top: 120px;
+}
 
 
-/* Nav-bar Style */
+/* ========== header Style========== */
+/* nav-bar styles */
 .nav-bar{
   justify-content: space-between;
   align-items: center;
@@ -34,4 +53,44 @@
 .nav-bar, .banner{
   max-width: 1440px;
   margin: 0 auto;
+}
+/* banner styles */
+.banner{
+  margin-top: 90px;
+}
+.banner-content{
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.banner-title{
+  font-weight: 700;
+  font-size: 4rem;
+  margin: 30px;
+}
+.banner-img{
+  width: 100%;
+}
+.banner-btn{
+  margin: 30px ;
+}
+
+/* ========= Main ========= */
+/* our feature styles */
+.feature-container{
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.feature-title{
+  font-size: 2.8rem;
+}
+.team-member{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.feature-description{
+  max-width: 520px;
+  margin-left: 110px;
 }
